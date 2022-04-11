@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Hello!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <!-- import the wedpage's sytlesheet -->
+    <link rel="stylesheet" href="/style.css" />
+                
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+                
+  </head>
+  <body>
+    <h1>SUPER MARIO SAYS</h1>
+    
+    <p>
+      Welcome To The Game! Memorize The Sounds And Mario Characters.
+    </p>
+    
+    <br>
+    <div id="Game">
+      <button id="startBtn" onclick = "startGame()">
+      Start
+      </button>
+      <button id="stopBtn" class="hidden" onclick = "stopGame()">
+      Stop
+      </button>
+      <button id="timeBtn">Lives Left: <span id="livestimer">3</span></button>
+      <script type="text/javascript">
+        function livesDown(){
+          var lives2 = lives + 1;
+          lives -= 1;
+          lives2 -= 1;
+          document.getElementById("livestimer").textContent = lives2;
+        }
+      </script>
+      <audio id="myAudio">
+        <source src="https://cdn.glitch.global/b97c6384-6e54-4b32-8633-88c790c4c22a/course-clear.mp3?v=1648337137738">
+      </audio>
+      <audio id="myAudio2">
+        <source src="https://cdn.glitch.global/b97c6384-6e54-4b32-8633-88c790c4c22a/Super%20Mario%20%20Lose%20Life.mp3?v=1648336918666">
+      </audio>
+      <audio id="downPower">
+        <source src="https://cdn.glitch.global/b97c6384-6e54-4b32-8633-88c790c4c22a/mario-s-pipe-sound-fx_G_major.wav?v=1648850985700">
+      </audio>
+    </div>
+    
+
+    <div id="gameButtonArea">
+      <div id="row1">
+        <button id="button1" onclick = "guess(1)" onmousedown = "startTone(1); countdown();" onmouseup = "stopTone()">
+        </button>
+        <button id="button2" onclick = "guess(2)" onmousedown = "startTone(2); countdown();" onmouseup = "stopTone()">
+        </button>
+        <button id="button3" onclick = "guess(3)" onmousedown = "startTone(3); countdown();" onmouseup = "stopTone()">
+        </button>
+      </div>
+      <div id="row2">
+        <button id="button4" onclick = "guess(4)" onmousedown = "startTone(4); countdown();" onmouseup = "stopTone()">
+        </button>
+        <button id="button5" onclick = "guess(5)" onmousedown = "startTone(5); countdown();" onmouseup = "stopTone()">
+        </button>
+        <button id="button6" onclick = "guess(6)" onmousedown = "startTone(6); countdown();" onmouseup = "stopTone()">
+        </button>
+      </div>
+      <div id="row3">
+        <button id="button7" onclick = "guess(7)" onmousedown = "startTone(7); countdown();" onmouseup = "stopTone()">
+        </button>
+        <button id="button8" onclick = "guess(8)" onmousedown = "startTone(8); countdown();" onmouseup = "stopTone()">
+        </button>
+        <button id="button9" onclick = "guess(9)" onmousedown = "startTone(9); countdown();" onmouseup = "stopTone()">
+        </button>
+      </div>
+    </div>
+    
+
+  </body>
+</html>

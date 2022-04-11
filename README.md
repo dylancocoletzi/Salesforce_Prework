@@ -6,7 +6,7 @@ Submitted by: **Dylan Cocoletzi**
 
 Time spent: **36** hours spent in total
 
-Link to project: https://glitch.com/edit/#!/sunset-sweet-nape?path=README.md%3A1%3A0
+Link to project: https://glitch.com/edit/#!/happy-hyper-yamamomo?path=TODO.md%3A1%3A0
 
 Please open preview in a new window to get the full game experience
 

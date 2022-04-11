@@ -1,0 +1,176 @@
+body {
+/*   font-family: helvetica, arial, sans-serif; */
+  font-family: 'Press Start 2P', cursive;
+  -webkit-text-stroke: 0.1px white;
+  margin: 2em;
+  background-image: url("https://cdn.glitch.global/b97c6384-6e54-4b32-8633-88c790c4c22a/nsFJoNv.jpg?v=1648241616989");
+  background-size: cover;
+  color: black;
+  text-align: center;
+}
+
+h1{
+/*   font-family:verdana, arial, sans-serif; */
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  -webkit-text-stroke: 2px white;
+  font-size: 40px;
+}
+
+button{
+  padding: 17px;
+  border-radius: 10px;
+}
+
+/* #gameButtonArea > button{
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+} */
+
+#startBtn{
+  font-family: 'Press Start 2P', cursive;
+  border-color: black;
+}
+#stopBtn{
+  font-family: 'Press Start 2P', cursive;
+  border-color: black;
+}
+
+#timeBtn{
+  font-family: 'Press Start 2P', cursive;
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 15px;
+}
+
+.hidden{
+  display: none;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#button1{
+  background: green;
+  border-color: black;
+  width: 160px;
+  height: 160px;
+  margin: 2px;
+  position: relative;
+}
+
+#button1:active, #button1.lit{
+  background-image: url("https://cdn.glitch.global/b97c6384-6e54-4b32-8633-88c790c4c22a/MPSS_Luigi.png?v=1648187094838");
+  background-size: cover;
+}
+
+#button2{
+  background: #17baff;
+  border-color: black;
+  width: 160px;
+  height: 160px;
+  margin: 2px;
+  position: relative;
+}
+
+#button2:active, #button2.lit{
+  background-image: url("https://cdn.glitch.global/b97c6384-6e54-4b32-8633-88c790c4c22a/1200px-Magikoopa_Artwork_-_Super_Mario_3D_World.png?v=1648186890913");
+  background-size: cover;
+}
+
+#button3{
+  background: #ff2626;
+  border-color: black;
+  width: 160px;
+  height: 160px;
+  margin: 2px;
+  position: relative;
+}
+
+#button3:active, #button3.lit{
+  background-image: url("https://cdn.glitch.global/b97c6384-6e54-4b32-8633-88c790c4c22a/MPSS_Mario.webp?v=1648186391481");
+  background-size: cover;
+}
+
+#button4{
+  background: #ffd700;
+  border-color: black;
+  width: 160px;
+  height: 160px;
+  margin: 2px;
+  position: relative;
+}
+
+#button4:active, #button4.lit{
+  background-image: url("https://cdn.glitch.global/b97c6384-6e54-4b32-8633-88c790c4c22a/Spiny_Artwork_-_New_Super_Mario_Bros._2.png?v=1648187631837");
+  background-size: cover;
+}
+
+#button5{
+  background: #923ae4;
+  border-color: black;
+  width: 160px;
+  height: 160px;
+  margin: 2px;
+  position: relative;
+}
+
+#button5:active, #button5.lit{
+  background-image: url("https://cdn.glitch.global/b97c6384-6e54-4b32-8633-88c790c4c22a/1200px-SuperMarioParty_Waluigi.png?v=1648186189788");
+  background-size: cover;
+}
+
+#button6{
+  background: #94714d;
+  border-color: black;
+  width: 160px;
+  height: 160px;
+  margin: 2px;
+  position: relative;
+}
+
+#button6:active, #button6.lit{
+  background-image: url("https://cdn.glitch.global/b97c6384-6e54-4b32-8633-88c790c4c22a/600px-MPS_Donkey_Kong_Artwork.webp?v=1648185740376");
+  background-size: cover;
+}
+
+#button7{
+  background: yellow;
+  border-color: black;
+  width: 160px;
+  height: 160px;
+  margin: 2px;
+  position: relative;
+}
+
+#button7:active, #button7.lit{
+  background-image: url("https://cdn.glitch.global/b97c6384-6e54-4b32-8633-88c790c4c22a/Wario-on-Game-Art-HQ.png?v=1648185585024");
+  background-size: cover;
+}
+
+#button8{
+  background: lightgreen;
+  border-color: black;
+  width: 160px;
+  height: 160px;
+  margin: 2px;
+  position: relative;
+}
+
+#button8:active, #button8.lit{
+  background-image: url("https://cdn.glitch.global/b97c6384-6e54-4b32-8633-88c790c4c22a/1200px-Yoshi_-_Mario_Party_10.png?v=1648186053750");
+  background-size: cover;
+}
+
+#button9{
+  background: pink;
+  border-color: black;
+  width: 160px;
+  height: 160px;
+  margin: 2px;
+  position: relative;
+}
+
+#button9:active, #button9.lit{
+  background-image: url("https://cdn.glitch.global/b97c6384-6e54-4b32-8633-88c790c4c22a/MPSS_Peach.webp?v=1648185939962");
+  background-size: cover;
+}
